@@ -36,7 +36,6 @@
     		void surf(Input IN, inout SurfaceOutput o)
     		{
                 o.Albedo = _myColour.rgb; // Same as _myColour.xyz | Can be swapped (gbr, grb)
-				o.Emission = IN.viewDir;
     		}
 
 		ENDCG
