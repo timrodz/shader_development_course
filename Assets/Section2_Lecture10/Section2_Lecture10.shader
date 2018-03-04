@@ -37,7 +37,7 @@
     		void surf(Input IN, inout SurfaceOutput o)
     		{
                 // o.Albedo = tex2D(_myTex, IN.uv_myTex).rgb; // Applies the texture to the Albedo
-				o.Albedo = (tex2D(_myTex, IN.uv_myTex) * _myRange).rgb; // Applies the texture to the albedo. Its intensity is multiplied by the range (0,5)
+				o.Albedo = (tex2D(_myTex, IN.uv_myTex) * _myRange * _myColor).rgb; // Applies the texture to the albedo. Its intensity is multiplied by the range (0-5)
 				o.Emission = texCUBE(_myCube, IN.worldRefl).rgb;
 			}
 

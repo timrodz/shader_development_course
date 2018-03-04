@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Section2_Lecture10
-  m_Shader: {fileID: 4800000, guid: cba627461b17ba345b0a883fb73b71a2, type: 3}
+  m_Name: Section2_Lecture16
+  m_Shader: {fileID: 4800000, guid: c621cc9cc88d41e4cac517f46e71f7c0, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -54,8 +54,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _myCube:
-        m_Texture: {fileID: 8900000, guid: beb1457d375110e468b8d8e1f29fccea, type: 3}
+    - _bump:
+        m_Texture: {fileID: 2800000, guid: 3dd71616c23ff3b47916e2641485bf2b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _difTex:
+        m_Texture: {fileID: 2800000, guid: a4d8f9434a471e74dac0fa460b33c7c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _diffuse:
+        m_Texture: {fileID: 2800000, guid: a4d8f9434a471e74dac0fa460b33c7c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _emsTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myTex:
@@ -79,11 +91,7 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _myFloat: 0.5
-    - _myRange: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _myColor: {r: 0.94645023, g: 1, b: 0.75735295, a: 1}
     - _myColour: {r: 0.96534497, g: 0.97794116, b: 0.0647167, a: 1}
-    - _myVector: {r: 0.5, g: 1, b: 1, a: 1}
